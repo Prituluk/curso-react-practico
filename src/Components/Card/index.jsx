@@ -47,8 +47,8 @@ const Card = (data) => {
         <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs m-2 px-3 py-0.5'>{data.data.category.name}</span>
         <img className='w-full h-full object-cover rounded-lg' src={data.data.images[0]} alt={data.data.title} />
         {renderIcon(data.data.id)}
-      </figure>
-      <p className='flex justify-between'>
+      </figure> 
+      <p className='flex justify-between items-center'>
         <span className='text-sm font-light'>{data.data.title}</span>
         <span className='text-lg font-medium'>${data.data.price}</span>
       </p>
